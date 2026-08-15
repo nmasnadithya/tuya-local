@@ -548,7 +548,6 @@ entities:
         type: string
         name: sensor
         optional: true
-        persist: true
   - entity: sensor
     name: Last session energy
     class: energy_storage
@@ -579,30 +578,22 @@ entities:
     name: Charger ID
     icon: "mdi:identifier"
     category: diagnostic
-    range:
-      min: 1
-      max: 255
     dps:
       - id: 101 # charger_id
         type: string
         name: value
         sensitive: true
         optional: true
-        persist: true
   - entity: text
     name: Server URL
     category: diagnostic
     icon: "mdi:link"
-    range:
-      min: 1
-      max: 255
     dps:
       - id: 102 # server_url
         type: string
         name: value
         sensitive: true
         optional: true
-        persist: true
   - entity: number
     name: Load Current Limit
     category: config
