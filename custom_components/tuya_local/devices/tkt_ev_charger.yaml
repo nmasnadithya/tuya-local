@@ -579,7 +579,7 @@ entities:
     icon: "mdi:identifier"
     category: diagnostic
     dps:
-      - id: 101 # charger_id
+      - id: 101  # charger_id
         type: string
         name: value
         sensitive: true
@@ -589,7 +589,7 @@ entities:
     category: diagnostic
     icon: "mdi:link"
     dps:
-      - id: 102 # server_url
+      - id: 102  # server_url
         type: string
         name: value
         sensitive: true
@@ -599,7 +599,7 @@ entities:
     category: config
     class: current
     dps:
-      - id: 103 # load_current_limit
+      - id: 103  # load_current_limit
         type: integer
         name: value
         unit: A
@@ -611,7 +611,7 @@ entities:
     name: Load Current
     class: current
     dps:
-      - id: 104 # load_current
+      - id: 104  # load_current
         type: integer
         name: sensor
         optional: true
@@ -629,6 +629,6 @@ entities:
     icon: "mdi:meter-electric"
     hidden: true
     dps:
-      - id: 105 # load_balance_switch
+      - id: 105  # load_balance_switch
         type: boolean
         name: switch
